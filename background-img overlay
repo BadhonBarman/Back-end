@@ -1,7 +1,7 @@
 /* background-img overlay color add css */
 
 background: linear-gradient(
-	rgba(9, 0, 0, 0.34),
+	rgba(9, 0, 0, 0.34),/*color-from-top*\
 	rgba(251, 8, 8, 0.87)
 	),
     url(../image/img-name.img-format);
