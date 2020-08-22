@@ -1,0 +1,29 @@
+---here i use bootstrap---
+---html code---
+
+<div class="loader">
+	<div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+		<span class="sr-only">Loading...</span>
+	</div>
+</div>
+
+---css code--
+
+.loader{
+position: fixed;
+background-color: #fff;
+z-index: 999999;
+height: 100%;
+width: 100%;
+}
+.spinner-grow{
+position: absolute;
+top: 50%;
+left: 50%;
+}
+
+---plugin---
+
+setTimeout(function(){
+        $('.loader').fadeToggle();
+}, 300);
