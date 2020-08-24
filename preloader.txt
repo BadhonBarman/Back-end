@@ -23,6 +23,7 @@ left: 50%;
 }
 
 ---plugin---
+---copy this plugin code and paste it on a js function---
 
 setTimeout(function(){
         $('.loader').fadeToggle();
