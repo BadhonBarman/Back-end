@@ -8,7 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 ---//---
----I use bootstrap for this---
+---I use bootstrap for this project---
 ---html code---
 
 <div class="loader">
@@ -33,7 +33,7 @@ left: 50%;
 }
 
 ---plugin---
----copy this plugin code and paste it on a js function---
+---copy this plugin code and paste it on a jquery function---
 
 setTimeout(function(){
         $('.loader').fadeToggle();
